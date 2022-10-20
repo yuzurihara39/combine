@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F0F7735287BBD53002552E2 /* CombineTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F7734287BBD53002552E2 /* CombineTimerApp.swift */; };
+		7F0F7737287BBD53002552E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F7736287BBD53002552E2 /* ContentView.swift */; };
+		7F0F7739287BBD58002552E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F0F7738287BBD58002552E2 /* Assets.xcassets */; };
+		7F0F773C287BBD58002552E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F0F773B287BBD58002552E2 /* Preview Assets.xcassets */; };
+		7F0F7743287BBD9C002552E2 /* NocombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F7742287BBD9C002552E2 /* NocombineViewModel.swift */; };
+		7F0F7747287BBFF8002552E2 /* NocombineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F7746287BBFF8002552E2 /* NocombineView.swift */; };
+		7F0F7749287BC900002552E2 /* CombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F7748287BC900002552E2 /* CombineViewModel.swift */; };
+		7F0F774B287BC93E002552E2 /* CombineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F774A287BC93E002552E2 /* CombineView.swift */; };
+		7F0F774D287D32E2002552E2 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F774C287D32E0002552E2 /* TimerViewModel.swift */; };
+		7F0F774F287D34B6002552E2 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F774E287D34B6002552E2 /* TimerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F0F7731287BBD53002552E2 /* CombineTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0F7734287BBD53002552E2 /* CombineTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineTimerApp.swift; sourceTree = "<group>"; };
+		7F0F7736287BBD53002552E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F0F7738287BBD58002552E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F0F773B287BBD58002552E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F0F7742287BBD9C002552E2 /* NocombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NocombineViewModel.swift; sourceTree = "<group>"; };
+		7F0F7746287BBFF8002552E2 /* NocombineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NocombineView.swift; sourceTree = "<group>"; };
+		7F0F7748287BC900002552E2 /* CombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewModel.swift; sourceTree = "<group>"; };
+		7F0F774A287BC93E002552E2 /* CombineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineView.swift; sourceTree = "<group>"; };
+		7F0F774C287D32E0002552E2 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		7F0F774E287D34B6002552E2 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F0F772E287BBD53002552E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F0F7728287BBD52002552E2 = {
+			isa = PBXGroup;
+			children = (
+				7F0F7733287BBD53002552E2 /* CombineTimer */,
+				7F0F7732287BBD53002552E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F0F7732287BBD53002552E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F0F7731287BBD53002552E2 /* CombineTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F0F7733287BBD53002552E2 /* CombineTimer */ = {
+			isa = PBXGroup;
+			children = (
+				7F0F7734287BBD53002552E2 /* CombineTimerApp.swift */,
+				7F0F7736287BBD53002552E2 /* ContentView.swift */,
+				7F0F7742287BBD9C002552E2 /* NocombineViewModel.swift */,
+				7F0F7746287BBFF8002552E2 /* NocombineView.swift */,
+				7F0F7748287BC900002552E2 /* CombineViewModel.swift */,
+				7F0F774C287D32E0002552E2 /* TimerViewModel.swift */,
+				7F0F774E287D34B6002552E2 /* TimerView.swift */,
+				7F0F774A287BC93E002552E2 /* CombineView.swift */,
+				7F0F7738287BBD58002552E2 /* Assets.xcassets */,
+				7F0F773A287BBD58002552E2 /* Preview Content */,
+			);
+			path = CombineTimer;
+			sourceTree = "<group>";
+		};
+		7F0F773A287BBD58002552E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F0F773B287BBD58002552E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F0F7730287BBD53002552E2 /* CombineTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F0F773F287BBD58002552E2 /* Build configuration list for PBXNativeTarget "CombineTimer" */;
+			buildPhases = (
+				7F0F772D287BBD53002552E2 /* Sources */,
+				7F0F772E287BBD53002552E2 /* Frameworks */,
+				7F0F772F287BBD53002552E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CombineTimer;
+			productName = CombineTimer;
+			productReference = 7F0F7731287BBD53002552E2 /* CombineTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F0F7729287BBD52002552E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					7F0F7730287BBD53002552E2 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 7F0F772C287BBD52002552E2 /* Build configuration list for PBXProject "CombineTimer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F0F7728287BBD52002552E2;
+			productRefGroup = 7F0F7732287BBD53002552E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F0F7730287BBD53002552E2 /* CombineTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F0F772F287BBD53002552E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0F773C287BBD58002552E2 /* Preview Assets.xcassets in Resources */,
+				7F0F7739287BBD58002552E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F0F772D287BBD53002552E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0F774D287D32E2002552E2 /* TimerViewModel.swift in Sources */,
+				7F0F7737287BBD53002552E2 /* ContentView.swift in Sources */,
+				7F0F7743287BBD9C002552E2 /* NocombineViewModel.swift in Sources */,
+				7F0F774B287BC93E002552E2 /* CombineView.swift in Sources */,
+				7F0F7735287BBD53002552E2 /* CombineTimerApp.swift in Sources */,
+				7F0F7747287BBFF8002552E2 /* NocombineView.swift in Sources */,
+				7F0F774F287D34B6002552E2 /* TimerView.swift in Sources */,
+				7F0F7749287BC900002552E2 /* CombineViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F0F773D287BBD58002552E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F0F773E287BBD58002552E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F0F7740287BBD58002552E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CombineTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Y48X5M9DX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.jec.cm.CombineTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F0F7741287BBD58002552E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CombineTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Y48X5M9DX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.jec.cm.CombineTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F0F772C287BBD52002552E2 /* Build configuration list for PBXProject "CombineTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F0F773D287BBD58002552E2 /* Debug */,
+				7F0F773E287BBD58002552E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F0F773F287BBD58002552E2 /* Build configuration list for PBXNativeTarget "CombineTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F0F7740287BBD58002552E2 /* Debug */,
+				7F0F7741287BBD58002552E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F0F7729287BBD52002552E2 /* Project object */;
+}
